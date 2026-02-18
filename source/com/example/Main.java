@@ -32,7 +32,7 @@ public class Main {
    * @param args the arguments to pass to the program
    */
   public static void main(String[] args) throws IOException {
-    System.out.println("test")
+    System.out.println("test");
 
     File configLocation = new File(args[1]); // JAVA-S0406
     BufferedReader configReader = null;
