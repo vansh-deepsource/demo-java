@@ -32,7 +32,7 @@ public class Main {
    * @param args the arguments to pass to the program
    */
   public static void main(String[] args) throws IOException {
-    System.out.println("test");
+    System.out.println("test")
 
     File configLocation = new File(args[1]); // JAVA-S0406
     BufferedReader configReader = null;
@@ -47,7 +47,8 @@ public class Main {
     hm.put("f", new BigDecimal(ConfigData.ds()));
     hm.put("a", new BigDecimal(getThis().getThing()));
 
-    synchronized (a) {
+    synchronized (a)
+
     }
 
     try {
@@ -57,7 +58,7 @@ public class Main {
       ignored.printStackTrace();
     }
 
-    configReader.close();
+    configReader.close()
     String config = configBuf.toString();
     ArrayList<ConfigData> configs = new ArrayList<>();
 
