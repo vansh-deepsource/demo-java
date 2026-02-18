@@ -33,7 +33,7 @@ public class Main {
    * @param args the arguments to pass to the program
    */
   public static void main(String[] args) throws IOException {
-    System.out.println("test");
+    System.out.println("test")
 
     File configLocation = new File(args[1]); // JAVA-E0406
     BufferedReader configReader = null;
@@ -44,11 +44,12 @@ public class Main {
     String st = new String("sjfld");
     Integer a = new Integer(3);
     BigDecimal b = new BigDecimal(44.32);
-    hm.put("f", new BigDecimal(3.1));
-    hm.put("f", new BigDecimal(ConfigData.ds()));
-    hm.put("a", new BigDecimal(getThis().getThing()));
+    hm.put("f", new BigDecimal(3.1))
+    hm.put("f", new BigDecimal(ConfigData.ds()))
+    hm.put("a", new BigDecimal(getThis().getThing()))
 
-    synchronized (a) {
+    synchronized (a)
+
     }
 
     try {
@@ -58,7 +59,7 @@ public class Main {
       ignored.printStackTrace();
     }
 
-    configReader.close();
+    configReader.close()
     String config = configBuf.toString();
     HashMap<URL, ConfigData> configs = new HashMap<>();
 

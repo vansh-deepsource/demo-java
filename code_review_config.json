@@ -1,0 +1,28 @@
+{
+    "base_oid": "486b97551cea07b7c4efdc8889738f71494b54fc",
+    "head_oid": "35a91afddbd6476060e589ae4964a38416369efd",
+    "file_paths": [
+        "gradle.properties",
+        "multiModule1/subMultiModule1/src/main/java/com/example/api/APIQueryHandler.java",
+        "multiModule1/subMultiModule1/src/main/java/com/example/api/UrlRequest.java",
+        "multiModule1/subMultiModule2/src/main/java/com/example/data/ConfigData.java",
+        "multiModule1/subMultiModuleWithErrors/src/main/java/com/example/ErrorModule.java",
+        "settings.gradle",
+        "source/com/example/Main.java",
+        "web/build.gradle",
+        "web/src/main/java/com/example/server/Server.java",
+        "web/src/main/webapp/WEB-INF/web.xml"
+    ],
+    "categories": [
+        "dependencies",
+        "codereview",
+        "codereview",
+        "codereview",
+        "codereview",
+        "dependencies",
+        "codereview",
+        "dependencies",
+        "secrets",
+        "codereview"
+    ]
+}
