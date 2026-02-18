@@ -43,9 +43,9 @@ public class Main {
     String st = new String("sjfld");
     Integer a = new Integer(3);
     BigDecimal b = new BigDecimal(44.32);
-    hm.put("f", new BigDecimal(3.1));
-    hm.put("f", new BigDecimal(ConfigData.ds()));
-    hm.put("a", new BigDecimal(getThis().getThing()));
+    hm.put("f", new BigDecimal(3.1))
+    hm.put("f", new BigDecimal(ConfigData.ds()))
+    hm.put("a", new BigDecimal(getThis().getThing()))
 
     synchronized (a)
 
